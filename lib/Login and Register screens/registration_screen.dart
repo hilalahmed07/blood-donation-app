@@ -100,6 +100,7 @@ class RegistrationScreen extends StatelessWidget {
                         fontSize: 18,
                         color: Color(0xffFF2156),
                       ),)),
+
                       SizedBox(
                         height: 27,
                       )

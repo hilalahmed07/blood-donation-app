@@ -1,4 +1,6 @@
 import 'package:blood_donation/Login%20and%20Register%20screens/registration_screen.dart';
+import 'package:blood_donation/home%20screen/home_page.dart';
+import 'package:blood_donation/home%20screen/pages%20for%20bottom%20navigation/home_screen.dart';
 import 'package:blood_donation/reset%20pw%20and%20verify%20screen/resit_password.dart';
 import 'package:blood_donation/widgets/my_container.dart';
 import 'package:blood_donation/widgets/my_textfield.dart';
@@ -95,7 +97,8 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             InkWell(
               onTap: (){
-
+                Navigator.pushNamed(context, HomeScreen.id);
+                //Navigator.pushNamed(context, HomePage.id);
               },
                 child: MyContainer(text: "LOG IN", textcolor: Color(0xffFFFFFF),color: Color(0xffFF2156),)
             ),

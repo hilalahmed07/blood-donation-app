@@ -1,5 +1,7 @@
 import 'package:blood_donation/Login%20and%20Register%20screens/login_screen.dart';
 import 'package:blood_donation/Login%20and%20Register%20screens/registration_screen.dart';
+import 'package:blood_donation/home%20screen/home_page.dart';
+import 'package:blood_donation/home%20screen/pages%20for%20bottom%20navigation/home_screen.dart';
 import 'package:blood_donation/onBording%20pages/onbording_one.dart';
 import 'package:blood_donation/onBording%20pages/onbording_three.dart';
 import 'package:blood_donation/onBording%20pages/onbording_two.dart';
@@ -35,6 +37,8 @@ class _MyAppState extends State<MyApp> {
         ResetPassword.id : (context) => ResetPassword(),
         OtpScreen.id : (context) => OtpScreen(),
         VerifyScreenTwo.id :(context) => VerifyScreenTwo(),
+        HomeScreen.id : (context) => HomeScreen(),
+        HomePage.id : (context) => HomePage(),
       },
     );
   }

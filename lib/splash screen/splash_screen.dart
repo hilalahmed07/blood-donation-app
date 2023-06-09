@@ -36,29 +36,29 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           children: [
             SizedBox(
-                // height: 216
-              height: height * 0.2410714285714286,
+                 height: 216
+              //height: height * 0.2410714285714286,
             ),
             Container(
-              // height: 171,
-              height:  height * 0.1908482142857143,
-              // width: 114,
-                width:  width * 0.2753623188405797,
+               height: 171,
+              //height:  height * 0.1908482142857143,
+              width: 114,
+               // width:  width * 0.2753623188405797,
                 child: Image.asset("assets/Logo.png"),
             ),
             SizedBox(
-              // height: 24,
-               height: height * 0.0267857142857143,
+               height: 24,
+              // height: height * 0.0267857142857143,
             ),
             Container(
-              // height: 39,
-              height: height * 0.0435754189944134,
-              // width: 260,
-              width: width * 0.6280193236714976,
+               height: 39,
+              //height: height * 0.0435754189944134,
+               width: 260,
+              //width: width * 0.6280193236714976,
               child: Center(
                 child: Text("Dare To Donate",style: TextStyle(
-                  // fontSize: 33,
-                  fontSize: (height * 0.6280193236714976/2) + (width * 0.0797101449275362/2),
+                   fontSize: 33,
+                  //fontSize: (height * 0.6280193236714976/2) + (width * 0.0797101449275362/2),
                   fontWeight: FontWeight.w600,
                   color: Color(0xffFFF9F9),
                 ),),
